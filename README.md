@@ -1,4 +1,4 @@
-# News Aggregator App
+# News Daily App
 
 A React-based web application that fetches and displays the latest news from the News API.
 
@@ -12,11 +12,12 @@ A React-based web application that fetches and displays the latest news from the
 - [License](#license)
 
 ## Introduction
-The News Aggregator App is a simple web application built using React. It utilizes the News API to fetch and display the latest news headlines, allowing users to stay updated with current events.
+The News Daily App is a simple web application built using React. It utilizes the News API to fetch and display the latest news headlines, allowing users to stay updated with current events.
 
 ## Features
 - Fetches and displays the latest news headlines.
 - Allows users to click on a news article to view more details.
+- Allows users to read new from various categories
 
 ## Installation
 To run this project locally, follow these steps:
