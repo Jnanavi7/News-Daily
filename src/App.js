@@ -6,9 +6,6 @@ import { Component } from 'react';
 const App = () => {
 
   const apiKey = process.env.REACT_APP_NEWS_API;
-
-  
-
     return(
 <Router>
     <Navbar />
