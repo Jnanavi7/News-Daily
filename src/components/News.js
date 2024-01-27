@@ -4,7 +4,6 @@ import NewsItem from "./NewsItem";
 import Spinner from "./Spinner";
 
 const News = (props) => {
-  console.log(props.apiKey)
   const [articles, setArticles] = useState([]);
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(true);
