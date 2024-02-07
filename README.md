@@ -8,8 +8,6 @@ A React-based web application that fetches and displays the latest news from the
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Key](#api-key)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 The News Daily App is a simple web application built using React. It utilizes the News API to fetch and display the latest news headlines, allowing users to stay updated with current events.
