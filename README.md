@@ -15,7 +15,7 @@ The News Daily App is a simple web application built using React. It utilizes th
 ## Features
 - Fetches and displays the latest news headlines.
 - Allows users to click on a news article to view more details.
-- Allows users to read new from various categories
+- Allows users to read news from various categories
 
 ## Installation
 To run this project locally, follow these steps:
