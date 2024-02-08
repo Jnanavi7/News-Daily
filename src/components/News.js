@@ -9,8 +9,10 @@ const News = (props) => {
   const [loading, setLoading] = useState(true);
   const [totalResults, setTotalResults] = useState(0);
 
+  const apiKey = process.env.REACT_APP_NEWS_API
+
   const updateNews = async (pageNum) => {
-    let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=dd2987f4d385485dbfe45014caf7a780&page=${pageNum}&pageSize=${props.pageSize}`;    setLoading(true);
+    let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${apiKey}&page=${pageNum}&pageSize=${props.pageSize}`;    setLoading(true);
     let data = await fetch(url);
     let parsedData = await data.json();
     let arrayData = parsedData.articles;
